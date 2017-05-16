@@ -12,5 +12,5 @@ jobs:
   include:
     - stage: info
       script: echo "Testing node $(node -v)"
-    - stage: test
-      script: npm test
+# - stage: test
+#   script: npm test
