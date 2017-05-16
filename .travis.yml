@@ -5,6 +5,7 @@ node_js:
 # setup all commands ourselves for clarity
 install:
   - npm install
-script:
-  - echo "Testing node $(node -v)"
-  - npm test
+jobs:
+  include:
+    - stage: Testing
+      script: echo "Testing node $(node -v)" && npm test
