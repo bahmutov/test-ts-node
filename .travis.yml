@@ -2,3 +2,9 @@ language: node_js
 node_js:
   - "6"
   - "7"
+# setup all commands ourselves for clarity
+install:
+  - npm install
+script:
+  - echo "Testing node $(node -v)"
+  - npm test
