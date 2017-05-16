@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "6"
-  - "7"
+
 # setup all commands ourselves for clarity
 install:
   - npm install
