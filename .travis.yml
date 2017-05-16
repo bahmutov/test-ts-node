@@ -13,5 +13,6 @@ jobs:
   include:
     - stage: info
       script: echo "Testing node $(node -v)"
+      script: echo "Second message"
     - stage: message
       script: echo "This is a test"
