@@ -1,4 +1,4 @@
-console.log('in main.ts')
+console.log('in main.ts, Node', process.version)
 
 const add = (a:number, b:number) => a + b
 

@@ -2,6 +2,8 @@
 
 > Trying running TypeScript via ts-node on a tiny project
 
+[![Build Status](https://travis-ci.org/bahmutov/test-ts-node.svg?branch=master)](https://travis-ci.org/bahmutov/test-ts-node)
+
 Based on blog post
 [Experimenting With ts-node And Using TypeScript In Node.js On The Server][blog]
 
