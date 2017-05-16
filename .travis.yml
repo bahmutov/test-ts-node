@@ -5,6 +5,9 @@ node_js:
 # setup all commands ourselves for clarity
 install:
   - npm install
+# skip default test step completely
+# (using job stages below)
+script: true
 jobs:
   include:
     - stage: info
