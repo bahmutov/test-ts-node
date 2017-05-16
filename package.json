@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node .",
     "start": "node .",
-    "build": "tsc"
+    "build": "tsc",
+    "postinstall": "echo 'running postinstall'"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
