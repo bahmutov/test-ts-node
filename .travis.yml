@@ -7,5 +7,7 @@ install:
   - npm install
 jobs:
   include:
-    - stage: Testing
-      script: echo "Testing node $(node -v)" && npm test
+    - stage: info
+      script: echo "Testing node $(node -v)"
+    - stage: test
+      script: npm test
