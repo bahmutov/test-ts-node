@@ -7,13 +7,17 @@
     "test": "node .",
     "start": "node .",
     "build": "tsc",
-    "postinstall": "echo 'running postinstall'"
+    "postinstall": "echo 'running postinstall'",
+    "lint-ts": "tslint --type-check --project . --fix --format stylish *.ts"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "^1.4.2",
     "ts-node": "^3.0.4",
+    "tslint": "^5.4.2",
+    "tslint-config-standard": "^5.0.2",
     "typescript": "^2.3.2"
   },
   "dependencies": {
