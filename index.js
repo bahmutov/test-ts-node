@@ -1,3 +1,5 @@
-require('ts-node/register')
+require('ts-node').register({
+  cacheDirectory: './ts-node'
+})
 
 require('./main')
