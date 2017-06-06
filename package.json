@@ -8,7 +8,8 @@
     "start": "node .",
     "build": "tsc",
     "postinstall": "echo 'running postinstall'",
-    "lint-ts": "tslint --type-check --project . --fix --format stylish *.ts"
+    "lint-ts": "tslint --type-check --project . --format stylish *.ts",
+    "prettier": "prettier --no-semi --single-quote --write *.ts"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
