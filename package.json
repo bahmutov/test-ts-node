@@ -8,14 +8,17 @@
     "start": "node .",
     "build": "tsc",
     "postinstall": "echo 'running postinstall'",
-    "lint-ts": "tslint --type-check --project . --format stylish *.ts",
-    "prettier": "prettier --no-semi --single-quote --write *.ts"
+    "lint": "npm run format && npm run lint-ts",
+    "lint-ts": "tslint --type-check --project . --fix --format stylish *.ts",
+    "prettier": "prettier --no-semi --single-quote --write *.ts",
+    "format": "prettier-standard '*.ts'"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^1.4.2",
+    "prettier-standard": "^5.0.0",
     "ts-node": "^3.0.4",
     "tslint": "^5.4.2",
     "tslint-config-standard": "^5.0.2",
