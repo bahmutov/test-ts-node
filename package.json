@@ -19,8 +19,8 @@
   "devDependencies": {
     "prettier": "^1.4.2",
     "prettier-standard": "^5.0.0",
-    "ts-node": "^3.0.4",
-    "tslint": "^5.4.2",
+    "ts-node": "3.0.6",
+    "tslint": "5.4.3",
     "tslint-config-standard": "^5.0.2",
     "typescript": "^2.3.2"
   },
