@@ -6,6 +6,11 @@ function sub (a: number, b: number) {
   return a - b
 }
 
+const foo: any = 42
+const fooNumber = foo as number
+
+// const bar:number = 'a'
+
 console.log('10 + 20', add(10, 20))
 
 class NoPackagesError extends Error {
